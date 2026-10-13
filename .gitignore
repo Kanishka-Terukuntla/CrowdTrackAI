@@ -1,0 +1,94 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# Conda and environment configuration
+.conda/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Datasets and raw video
+# ==============================
+data/raw/*
+data/processed/*
+data/custom/*
+
+# Keep folder structure in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/custom/.gitkeep
+
+# ==============================
+# Model weights and checkpoints
+# ==============================
+models/*
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.ckpt
+
+# ==============================
+# Generated outputs
+# ==============================
+runs/
+outputs/
+predictions/
+reports/figures/*
+reports/results/*
+reports/*.mp4
+reports/*.avi
+reports/*.jpg
+reports/*.png
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+
+# ==============================
+# Secrets and environment variables
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE and operating system files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Test and coverage artifacts
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
